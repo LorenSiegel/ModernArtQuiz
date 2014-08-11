@@ -4,27 +4,27 @@ var quiz = [{
   "question": "Guess the Artist",
   "choices": ["Pablo Picasso", "Henri Matisse", "Andy Warhol"],
   "correct": "Pablo Picasso",
-  "image": "/Users/lorensiegel/thinkful-projects/ModernArtQuiz/images/Picasso_LesDemoisellesDAvignon.jpg"
+  "image": "https://raw.githubusercontent.com/LorenSiegel/ModernArtQuiz/gh-pages/images/Picasso_LesDemoisellesDAvignon.jpg"
 }, {
   "question": "Guess the Artist",
   "choices": ["Edgar Degas", "Edouard Manet", "Vincent van Gogh"],
   "correct": "Vincent van Gogh",
-    "image": "/Users/lorensiegel/thinkful-projects/ModernArtQuiz/images/vanGogh_StarryNight.jpg"
+    "image": "https://raw.githubusercontent.com/LorenSiegel/ModernArtQuiz/gh-pages/images/vanGogh_StarryNight.jpg"
 }, {
     "question": "Guess the Artist",
   "choices": ["Henri Matisse", "Claude Monet", "Paul Gauguin"],
   "correct": "Henri Matisse",
-    "image": "/Users/lorensiegel/thinkful-projects/ModernArtQuiz/images/Matisse_LaDanse.jpg"
+    "image": "https://raw.githubusercontent.com/LorenSiegel/ModernArtQuiz/gh-pages/images/Matisse_LaDanse.jpg"
 }, {
   "question": "Guess the Artist",
   "choices": ["Claude Monet", "Jasper Johns", "Marcel Duchamp"],
   "correct": "Marcel Duchamp",
-    "image": "/Users/lorensiegel/thinkful-projects/ModernArtQuiz/images/Duchamp_Fontaine.jpg"
+    "image": "https://raw.githubusercontent.com/LorenSiegel/ModernArtQuiz/gh-pages/images/Duchamp_Fontaine.jpg"
 }, {
   "question": "Guess the Artist",
   "choices": ["Andy Warhol", "James Turrel", "Jasper Johns"],
   "correct": "The Ashcan School",
-    "image": "/Users/lorensiegel/thinkful-projects/ModernArtQuiz/images/Turrel.jpg"
+    "image": "https://raw.githubusercontent.com/LorenSiegel/ModernArtQuiz/gh-pages/images/Turrel.jpg"
 }];
 
 
@@ -35,7 +35,7 @@ var content = $("content"),
   scoreContainer = $("score"),
   submitBtn = $("submit");
 
-// init vars
+
 var currentQuestion = 0,
   score = 0,
   askingQuestion = true;
