@@ -23,7 +23,7 @@ var quiz = [{
 }, {
   "question": "Guess the Artist",
   "choices": ["Andy Warhol", "James Turrel", "Jasper Johns"],
-  "correct": "The Ashcan School",
+  "correct": "James Turrel",
     "image": "https://raw.githubusercontent.com/LorenSiegel/ModernArtQuiz/gh-pages/images/Turrel.jpg"
 }];
 
